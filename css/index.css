@@ -1,3 +1,5 @@
+    /*Para abajo mobile first*/
+    
     .galeria {
         padding: 0 2.5%;
         display: flex;
@@ -13,8 +15,9 @@
     .contenedor-imagen img {
         width: 100%;
     }
+    /*Para abajo excepciones de los otros tamaños*/
     
-    @media all and (min-width: 720px) {
+    @media all and (min-width: 768px) {
         .galeria {
             flex-direction: row;
             flex-wrap: wrap;
